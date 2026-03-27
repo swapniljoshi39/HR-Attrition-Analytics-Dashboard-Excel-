@@ -2,27 +2,27 @@
 
 ## 📌 Project Overview
 
-The HR Attrition Analytics Dashboard is an interactive Excel-based analytical solution designed to monitor, analyze, and visualize employee attrition trends within an organization.
+The **HR Attrition Analytics Dashboard** is an interactive Excel-based solution designed to analyze employee attrition and uncover workforce trends.
 
-This dashboard provides HR teams and management with actionable insights into workforce distribution, attrition rate, demographic trends, and departmental performance.
+This dashboard enables HR professionals and decision-makers to **monitor attrition patterns, identify high-risk employee segments, and make data-driven retention strategies**.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze overall employee attrition
-- Identify attrition patterns by:
-  - Gender
-  - Age Group
-  - Education Level
-  - Marital Status
-  - Department
-- Monitor key HR metrics
-- Enable interactive filtering using slicers
+- Measure overall employee attrition and workforce size  
+- Identify attrition trends across key dimensions:
+  - Gender  
+  - Age Group  
+  - Education Level  
+  - Marital Status  
+  - Department  
+- Provide interactive analysis using slicers  
+- Support HR decision-making with visual insights  
 
 ---
 
-## 📈 Key Metrics Displayed
+## 📈 Key Metrics
 
 | Metric | Value |
 |--------|--------|
@@ -30,110 +30,135 @@ This dashboard provides HR teams and management with actionable insights into wo
 | Attrition Count | 237 |
 | Attrition Rate | 16.12% |
 | Active Employees | 1233 |
-| Average Age | 37 |
+| Avg Age of Attrition | 37 |
 
 ---
 
 ## 📊 Dashboard Components
 
-### 1️⃣ Gender Distribution
-Displays total employee percentage by gender:
-- Female: 40%
-- Male: 60%
+### 1️⃣ Attrition % by Gender
+- Female: 37%  
+- Male: 63%  
+👉 Indicates higher attrition among male employees  
+
+---
 
 ### 2️⃣ Education-wise Attrition
-- Bachelor’s Degree
-- Master’s Degree
-- Associate Degree
-- High School
-- Doctoral Degree
+- Bachelor’s Degree: 99  
+- Master’s Degree: 58  
+- Associate Degree: 44  
+- High School: 31  
+- Doctoral Degree: 5  
+
+👉 Highest attrition observed among Bachelor’s degree holders  
+
+---
 
 ### 3️⃣ Department-wise Attrition
-- HR
-- R&D
-- Sales
+- R&D: 133 (56%)  
+- Sales: 92 (39%)  
+- HR: 12 (5%)  
+
+👉 R&D department contributes the majority of attrition  
+
+---
 
 ### 4️⃣ Age Group-wise Attrition
-- <25
-- 25–34
-- 35–44
-- 45–55
-- >55
+- <25: 38  
+- 25–34: 112  
+- 35–44: 51  
+- 45–55: 28  
+- >55: 8  
+
+👉 Highest attrition occurs in the **25–34 age group**  
+
+---
 
 ### 5️⃣ Marital Status-wise Attrition
-- Single
-- Married
-- Divorced
+- Single: 120  
+- Married: 84  
+- Divorced: 33  
+
+👉 Single employees show the highest attrition  
+
+---
 
 ### 6️⃣ Interactive Slicers
-- Gender
-- Department
-- Marital Status
+- Gender  
+- Department  
+- Marital Status  
 
-These slicers allow dynamic filtering of the entire dashboard.
-
----
-
-## 🛠 Tools & Technologies Used
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Data Modeling
-- Conditional Formatting
-- KPI Cards
+👉 Enables dynamic filtering and deeper analysis  
 
 ---
 
-## 📂 Dataset Features
+## 🛠 Tools & Techniques Used
 
-The dataset includes the following attributes:
-- Employee ID
-- Age
-- Gender
-- Department
-- Education Level
-- Marital Status
-- Attrition Status
-- Job Role
-- Salary Information
+- Microsoft Excel  
+- Pivot Tables & Pivot Charts  
+- Slicers for interactivity  
+- KPI Cards for summary metrics  
+- Data Cleaning & Transformation  
+- Dashboard Design & Formatting  
 
 ---
 
-## 🔍 Insights Derived
-- Majority attrition observed in R&D department.
-- Higher attrition among employees aged 25–44.
-- Bachelor’s degree holders show higher attrition count.
-- Married employees show comparatively higher attrition.
-- Overall attrition rate stands at 16.12%.
+## 📂 Dataset Description
+
+The dataset includes key HR attributes such as:
+
+- Employee ID  
+- Age  
+- Gender  
+- Department  
+- Education Level  
+- Marital Status  
+- Attrition Status  
+- Job Role  
+- Salary  
+
+---
+
+## 🔍 Key Insights
+
+- Overall attrition rate is **16.12%**  
+- **R&D department** has the highest attrition contribution (56%)  
+- Employees aged **25–34** show the highest attrition  
+- **Single employees** are more likely to leave compared to others  
+- **Bachelor’s degree holders** have the highest attrition count  
+- Attrition is higher among **male employees (63%)**  
 
 ---
 
 ## 🚀 How to Use
-1. Open the Excel file.
-2. Navigate to the Dashboard sheet.
-3. Use slicers to filter by Gender, Department, or Marital Status.
-4. Analyze KPIs and charts for insights.
+
+1. Open the Excel file  
+2. Go to the **Dashboard** sheet  
+3. Use slicers to filter by Gender, Department, or Marital Status  
+4. Analyze KPIs and charts to derive insights  
 
 ---
 
 ## 💡 Business Value
-- Helps HR identify high-risk attrition segments.
-- Supports strategic workforce planning.
-- Enables data-driven HR decisions.
-- Improves retention strategy formulation.
+
+- Identifies high attrition segments for targeted action  
+- Helps HR teams improve **employee retention strategies**  
+- Supports **data-driven workforce planning**  
+- Enhances visibility into organizational trends  
 
 ---
 
-## 📎 Future Improvements
-- Add predictive attrition model.
-- Include salary band analysis.
-- Add hiring trend comparison.
-- Automate data refresh using Power Query.
+## 🔮 Future Enhancements
+
+- Add **Attrition Rate (%) by category** for deeper insights  
+- Build a **predictive attrition model**  
+- Integrate **salary and job role analysis**  
+- Automate data refresh using **Power Query**  
+- Develop a **Power BI version** for advanced analytics  
 
 ---
 
 ## 👤 Author
 
 **Swapnil Joshi**  
-HR Analytics | Data Analysis | Excel Dashboard Development
+HR Analytics | Data Analysis | Excel Dashboard Development  
